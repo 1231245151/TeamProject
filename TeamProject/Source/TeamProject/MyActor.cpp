@@ -15,14 +15,14 @@ AMyActor::AMyActor()
 void AMyActor::BeginPlay()
 {
 	Super::BeginPlay();
-	UE_LOG(LogTemp, Warning, TEXT("AMyActor has begun play~~~"));
+	UE_LOG(LogTemp, Warning, TEXT("AMyActor has begun play~~~haha"));
 }
 
 // Called every frame
 void AMyActor::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	UE_LOG(LogTemp, Warning, TEXT("AMyActor is ticking~~~"));
+	UE_LOG(LogTemp, Warning, TEXT("AMyActor is ticking~~~haha"));
 }
 
 void AMyActor::EndPlay(EEndPlayReason::Type _end)
